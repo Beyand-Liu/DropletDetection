@@ -1,7 +1,5 @@
 """
-键盘侠：Lenovo
-创作日：2024年03月11日
-液滴撞击超疏水基板标度率
+2024年03月11日
 """
 import os, os.path
 import cv2.cv2 as cv
@@ -209,11 +207,7 @@ rho = 1e3   # kg/m^3
 sigma = 0.072   # N/m
 
 # Parameter for video synthesis
-#frame_path = 'F:/Experiment Data/9 DOD ON CHIP/211029/Export_20211029_205335 A=15/'
-#frame_path = 'F:/Experiment Data/9 DOD ON CHIP/211022/3/toframes/'
-#frame_path = 'F:/Experiment Data/9 DOD ON CHIP/211022/3/Export_20211022_195533/'
-frame_path = 'D:/Master/Experiment Data/DropletSuperhydrophobic/'
-#frame_path = 'D:/Master/Experiment Data/DropletCoalescence/'
+frame_path = 'D:/yourfile/'
 
 video_index = '1_show_'  # 欲生成的视频的命名前缀
 dest_path = frame_path
